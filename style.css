@@ -12,7 +12,7 @@ h1{
     color: red;
 }
 
-section{
+.flexible-container{
     display: flex;
 }
 .ab{
@@ -30,14 +30,14 @@ width: 80%;
     border-radius: 10px;
     font-weight: 400;
 }
-#banner{
+.bannerr{
     background-image: url(sample/top-banner.png);
     background-repeat: no-repeat;
 }
 .color{
     color: rgb(0, 9, 128);
 }
-.bann{
+.banner{
     display: flex;
     margin: 100px;
     background-image: url(sample/dream-bg.png);
@@ -55,4 +55,38 @@ width: 80%;
 .abc{
     width: 50%;
     padding-right: 120px;
+}
+#wc{
+    box-shadow: 10px 10px 50px gray;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 10px;
+    width: 40%;
+    border-radius: 10px;
+    width: 50%;
+    padding:2%;
+    
+}
+h2{
+    font-size: 40px;
+}
+.area{
+    background-image: url(sample/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    
+}
+.aa{
+    border-left: 10px solid;
+border-image: linear-gradient(orange,tomato);
+border-image-slice: 1;
+}
+.ac{
+    border-left: 10px solid;
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice: 1;
+
+}
+#hi{
+    text-align: center;
 }
